@@ -1,4 +1,4 @@
-package GUI;
+package Week8to11.WaterSupplyGUI.src.GUI;
 
 import java.util.ArrayList;
 import java.util.Arrays;

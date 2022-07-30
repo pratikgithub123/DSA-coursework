@@ -1,4 +1,5 @@
-package GUI;
+
+package Week8to11.WaterSupplyGUI.src.GUI;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -58,7 +59,7 @@ public class main extends JFrame {
 
         String input = "";
 
-        BufferedReader reader = new BufferedReader(new FileReader("WithoutLogin/WaterSupplyGUI/src/GUI/info.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("Week8to11/WaterSupplyGUI/src/GUI/info.txt"));
         String line = null;
         while ((line = reader.readLine()) != null) {
 
@@ -102,7 +103,7 @@ public class main extends JFrame {
 
         upperPanel = new JPanel();
         JLabel imagelabel = new JLabel();
-        imagelabel.setIcon(new ImageIcon("WithoutLogin/WaterSupplyGUI/src/GUI/city.png"));
+        imagelabel.setIcon(new ImageIcon("Week8to11/WaterSupplyGUI/src/GUI/city.png"));
         upperPanel.setLayout(new BorderLayout());
         upperPanel.add(imagelabel);
 //        upperPanel.setBounds(0,0,1920,1080);
